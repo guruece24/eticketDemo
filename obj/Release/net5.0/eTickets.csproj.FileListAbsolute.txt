@@ -55,8 +55,6 @@ C:\Users\Guruprasad\source\repos\eTickets\obj\Release\net5.0\eTickets.TagHelpers
 C:\Users\Guruprasad\source\repos\eTickets\obj\Release\net5.0\eTickets.RazorCoreGenerate.cache
 C:\Users\Guruprasad\source\repos\eTickets\obj\Release\net5.0\Razor\Views\Actors\Index.cshtml.g.cs
 C:\Users\Guruprasad\source\repos\eTickets\obj\Release\net5.0\Razor\Views\Cinemas\Index.cshtml.g.cs
-C:\Users\Guruprasad\source\repos\eTickets\obj\Release\net5.0\Razor\Views\Home\Index.cshtml.g.cs
-C:\Users\Guruprasad\source\repos\eTickets\obj\Release\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
 C:\Users\Guruprasad\source\repos\eTickets\obj\Release\net5.0\Razor\Views\Movies\Index.cshtml.g.cs
 C:\Users\Guruprasad\source\repos\eTickets\obj\Release\net5.0\Razor\Views\Producers\Index.cshtml.g.cs
 C:\Users\Guruprasad\source\repos\eTickets\obj\Release\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
@@ -72,3 +70,4 @@ C:\Users\Guruprasad\source\repos\eTickets\obj\Release\net5.0\eTickets.dll
 C:\Users\Guruprasad\source\repos\eTickets\obj\Release\net5.0\ref\eTickets.dll
 C:\Users\Guruprasad\source\repos\eTickets\obj\Release\net5.0\eTickets.pdb
 C:\Users\Guruprasad\source\repos\eTickets\obj\Release\net5.0\eTickets.genruntimeconfig.cache
+C:\Users\Guruprasad\source\repos\eTickets\obj\Release\net5.0\Razor\Views\Actors\Create.cshtml.g.cs
