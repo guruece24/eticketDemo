@@ -71,3 +71,5 @@ C:\Users\Guruprasad\source\repos\eTickets\obj\Debug\net5.0\eTickets.pdb
 C:\Users\Guruprasad\source\repos\eTickets\obj\Debug\net5.0\eTickets.genruntimeconfig.cache
 C:\Users\Guruprasad\source\repos\eTickets\obj\Debug\net5.0\eTickets.csproj.AssemblyReference.cache
 C:\Users\Guruprasad\source\repos\eTickets\obj\Debug\net5.0\Razor\Views\Actors\Create.cshtml.g.cs
+C:\Users\Guruprasad\source\repos\eTickets\obj\Debug\net5.0\Razor\Views\Actors\Details.cshtml.g.cs
+C:\Users\Guruprasad\source\repos\eTickets\obj\Debug\net5.0\Razor\Views\Actors\Edit.cshtml.g.cs
