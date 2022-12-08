@@ -35,12 +35,12 @@ namespace eTickets.Data.Base
 
         public async Task UpdateAsync(int id, T entity)
         {
-            //entity = await _context.Set<T>().FirstOrDefaultAsync(n => n.Id == id);
-            //entity entityEntry = _context.Entry<T>(entity);
-            //entityEntry.State = EntityState.Modified;
-
             entity.Id = id;
-            _context.Update(entity);
+            EntityEntry entityEntry = _context.Entry<T>(entity);
+            entityEntry.State = EntityState.Modified;
+
+            //entity.Id = id;
+            //_context.Update(entity);
             await _context.SaveChangesAsync();
         }
     }
