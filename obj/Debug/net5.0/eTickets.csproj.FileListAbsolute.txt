@@ -84,3 +84,4 @@ C:\Users\Guruprasad\source\repos\eTickets\obj\Debug\net5.0\Razor\Views\Cinemas\D
 C:\Users\Guruprasad\source\repos\eTickets\obj\Debug\net5.0\Razor\Views\Cinemas\Details.cshtml.g.cs
 C:\Users\Guruprasad\source\repos\eTickets\obj\Debug\net5.0\Razor\Views\Cinemas\Edit.cshtml.g.cs
 C:\Users\Guruprasad\source\repos\eTickets\obj\Debug\net5.0\Razor\Views\Movies\Details.cshtml.g.cs
+C:\Users\Guruprasad\source\repos\eTickets\obj\Debug\net5.0\Razor\Views\Movies\Create.cshtml.g.cs

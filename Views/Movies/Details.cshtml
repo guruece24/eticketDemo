@@ -59,11 +59,12 @@
                                 <div class="row">
                                     @foreach (var actor in Model.Actors_Movies)
 	                                {
-                                        <div class="column text-center">
-                                            <img class="border-info rounded-circle" src="@actor.Actor.ProfilePictureURL" style="max-width: 150px"/>
-                                            <br />
-                                            <a asp-controller="Actors" asp-action="Details" asp-route-id="@Model.Id">@actor.Actor.FullName</a>
-                                        </div> 
+                                    <div class="column text-center">
+                                        <img class="border-info rounded-circle" src="@actor.Actor.ProfilePictureURL" style="max-width: 150px" />
+                                        <br />
+                                       @* <a asp-controller="Actors" asp-action="Details" asp-route-id="@Model.Id">@actor.Actor.FullName</a>*@
+                                        <a asp-controller="Actors" asp-action="Details" asp-route-id="@actor.Actor.Id">@actor.Actor.FullName</a>
+                                    </div> 
 
 		 
 	                                }
