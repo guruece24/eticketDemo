@@ -90,3 +90,4 @@ C:\Users\Guruprasad\source\repos\eTickets\obj\Debug\net5.0\eTickets.dll
 C:\Users\Guruprasad\source\repos\eTickets\obj\Debug\net5.0\ref\eTickets.dll
 C:\Users\Guruprasad\source\repos\eTickets\obj\Debug\net5.0\eTickets.pdb
 C:\Users\Guruprasad\source\repos\eTickets\obj\Debug\net5.0\eTickets.genruntimeconfig.cache
+C:\Users\Guruprasad\source\repos\eTickets\obj\Debug\net5.0\Razor\Views\Orders\Index.cshtml.g.cs

@@ -18,7 +18,7 @@ namespace eTickets.Data.Services
 
         public async Task<List<Order>> GetOrdersByUserIdAsync(string userId) => await _context.Orders.Include(n => n.OrderItems)
             .ThenInclude(n => n.Movie)
-            .Where(n => n.UserId == userId)
+            .Where(n => n.UserId == userId && n.OrderItems.Count > 0)
             .ToListAsync();
         
 
