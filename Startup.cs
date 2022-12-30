@@ -60,6 +60,7 @@ namespace eTickets
             app.UseSession();
 
             app.UseAuthorization();
+            app.UseRequestLocalization("en-US");
 
             app.UseEndpoints(endpoints =>
             {
