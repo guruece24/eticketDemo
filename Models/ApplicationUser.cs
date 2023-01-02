@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace eTickets.Models
 {
     public class ApplicationUser : IdentityUser
-    {
+    { 
         public ApplicationUser()
         {
                 
