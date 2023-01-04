@@ -15,9 +15,10 @@ namespace eTickets.Data.Base
         public EntityBaseRepository(AppDbContext context)
         {
             _context = context;
-        }
+        } 
+
         public async Task AddAsync(T entity) 
-        {
+        {            
             await _context.Set<T>().AddAsync(entity);
             await _context.SaveChangesAsync();
         }
