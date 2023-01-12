@@ -94,3 +94,4 @@ C:\Users\Guruprasad\source\repos\eTickets\obj\Debug\net5.0\Razor\Views\Orders\In
 C:\Users\Guruprasad\source\repos\eTickets\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 C:\Users\Guruprasad\source\repos\eTickets\obj\Debug\net5.0\Razor\Views\Account\Login.cshtml.g.cs
 C:\Users\Guruprasad\source\repos\eTickets\obj\Debug\net5.0\Razor\Views\Account\Register.cshtml.g.cs
+C:\Users\Guruprasad\source\repos\eTickets\obj\Debug\net5.0\Razor\Views\Account\RegisterCompleted.cshtml.g.cs
