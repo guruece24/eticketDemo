@@ -95,3 +95,4 @@ C:\Users\Guruprasad\source\repos\eTickets\bin\Debug\net5.0\Microsoft.AspNetCore.
 C:\Users\Guruprasad\source\repos\eTickets\obj\Debug\net5.0\Razor\Views\Account\Login.cshtml.g.cs
 C:\Users\Guruprasad\source\repos\eTickets\obj\Debug\net5.0\Razor\Views\Account\Register.cshtml.g.cs
 C:\Users\Guruprasad\source\repos\eTickets\obj\Debug\net5.0\Razor\Views\Account\RegisterCompleted.cshtml.g.cs
+C:\Users\Guruprasad\source\repos\eTickets\obj\Debug\net5.0\Razor\Views\Shared\_Identity.cshtml.g.cs
