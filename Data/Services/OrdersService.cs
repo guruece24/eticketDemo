@@ -16,17 +16,29 @@ namespace eTickets.Data.Services
             _context = context;
         }
 
-        public async Task<List<Order>> GetOrdersByUserIdAsync(string userId) => await _context.Orders.Include(n => n.OrderItems)
-            .ThenInclude(n => n.Movie)
-            .Where(n => n.UserId == userId && n.OrderItems.Count > 0)
-            .ToListAsync();
+        public async Task<List<Order>> GetOrdersByUserIdAndRoleAsync(string userId, string userRole)
+        {
+            var orders = await _context.Orders.Include(n => n.OrderItems)
+                                .ThenInclude(n => n.Movie)
+                                .Include(n => n.User)
+                                //.Where(n => n.UserId == userId && n.OrderItems.Count > 0)
+                                .Where(n => n.OrderItems.Count > 0)
+                                .ToListAsync();
+            if(userRole != "Admin")
+            {
+                orders = orders.Where(n => n.UserId == userId).ToList();
+            }
+
+            return orders;
+        }
         
 
         public async Task StoreOrderAsync(List<ShoppingCartItem> items, string userId, string userEmailAddress)
         {
+            
             var order = new Order()
             {
-                UserId = userId,
+                UserId = userId, 
                 Email = userEmailAddress
             };
 
@@ -46,7 +58,6 @@ namespace eTickets.Data.Services
 
             }
             await _context.SaveChangesAsync();
-
         }
     }
 }
