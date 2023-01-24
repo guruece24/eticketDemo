@@ -97,3 +97,4 @@ C:\Users\Guruprasad\source\repos\eTickets\obj\Debug\net5.0\Razor\Views\Account\R
 C:\Users\Guruprasad\source\repos\eTickets\obj\Debug\net5.0\Razor\Views\Account\RegisterCompleted.cshtml.g.cs
 C:\Users\Guruprasad\source\repos\eTickets\obj\Debug\net5.0\Razor\Views\Shared\_Identity.cshtml.g.cs
 C:\Users\Guruprasad\source\repos\eTickets\obj\Debug\net5.0\Razor\Views\Account\Users.cshtml.g.cs
+C:\Users\Guruprasad\source\repos\eTickets\obj\Debug\net5.0\Razor\Views\Account\AccessDenied.cshtml.g.cs
