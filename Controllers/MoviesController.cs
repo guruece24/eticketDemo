@@ -41,7 +41,7 @@ namespace eTickets.Controllers
                                      //|| n.Description.ToLower().Contains(searchString.ToLower())).ToList();
 
                 var filteredResultNew = allMovies.Where(n => string.Equals(n.Name, searchString, StringComparison.CurrentCultureIgnoreCase) || 
-                                string.Equals(n.Description, searchString, StringComparison.CurrentCultureIgnoreCase)).ToList();
+                                n.Description.ToLower().Contains(searchString.ToLower())).ToList();
 
                 return View("Index", filteredResultNew);
             }
